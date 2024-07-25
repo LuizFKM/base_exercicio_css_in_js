@@ -23,13 +23,10 @@ export const Formulario = styled.form`
   @media (max-width: 768px) {
     height: auto;
     padding: 24px 0;
-
-    div {
-      font-size: 32px;
-    }
   }
 `
 export const HeroH2 = styled.h2`
+  text-align: left;
   position: relative;
   color: ${(props) => props.theme.corSecundaria};
   font-family: Gloock, serif;
